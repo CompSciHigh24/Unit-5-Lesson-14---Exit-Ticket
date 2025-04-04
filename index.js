@@ -33,7 +33,7 @@ const potionSchema = new mongoose.Schema({
 const Potion = mongoose.model("Potion", potionSchema, "Potions")
 
 // Create a dynamic route handler that updates a specific potion's color based on it's name [2 pts]
-// e.g. /update/polyjuice will update the color of the polyjuice potion
-// e.g. /update/amortentia will update the color of the Amortentia potion
+// e.g. /update/polyjuice will update the color of the polyjuice potion to pearly white
+// e.g. /update/amortentia will update the color of the Amortentia potion to golden purple
 
 
