@@ -1,5 +1,3 @@
-// install modules
-// npm i mongoose express
 const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
